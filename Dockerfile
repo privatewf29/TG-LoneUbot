@@ -1,7 +1,7 @@
 # We're using Ubuntu 20.10
 FROM privatener29/dockerlonewolfie:w29f
 
-RUN git clone -b TG-LoneUbot https://github.com/W29F/TG-LoneUbot/root/userbot
+RUN git clone -b TG-LoneUbot https://github.com/W29F/TG-LoneUbot
 RUN mkdir /root/userbot/.bin
 RUN pip install --upgrade pip setuptools
 WORKDIR /root/userbot
